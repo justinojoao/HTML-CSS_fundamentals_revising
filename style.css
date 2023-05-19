@@ -8,3 +8,32 @@
     margin-right: 20px;   
     color: black;
 }
+
+input[readonly] {
+    background-color: saddlebrown;
+}/*Seletores de Atributos*/
+
+a:active{
+    color: yellow;
+} /*Pseudo-classes*/ 
+
+input:checked + a{
+    color: red;
+}
+
+h1:empty{
+    border: blue solid 8px;
+}
+
+input:disabled{
+    background-color: beige;
+}
+
+input:focus{
+    background-color: blue;
+}
+
+a:hover{
+    border: blue solid 2px;
+    border-radius: 10px;
+}
