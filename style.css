@@ -1,3 +1,12 @@
+body{
+    /*background-color: rgb(50, 100, 30);*/
+    /*background-color: hsl(30, 80%, 60%);*//*we have the chromatic circle as a refence*/
+    background-color: rgb(12, 88, 88);
+
+    /*PAY ATTENCTION*/
+    /*we also have alpha between zero and one, it is the fourth position and indicates transparency, the greater the alpha, the greater the transparency, if it's smaller, the more opaque it gets, but we won't to use it now */
+}
+
 #footer {
     display: flex;
     justify-content: right;
@@ -37,3 +46,4 @@ a:hover{
     border: blue solid 2px;
     border-radius: 10px;
 }
+
