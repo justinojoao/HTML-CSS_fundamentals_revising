@@ -62,7 +62,43 @@ h1 {
 
 .calc {
     display: inline-block;
-    width: calc(100% / 3);
+    width: calc(90% / 3);
     height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+cm - centímetros ( 96px / 2.54 );
+mm - milímetros ( 1/10cm );
+q - ¼ de milímetro ( 1/40cm );
+in - polegadas ( 2,54cm = 96px );
+pc - pica ( 12pt ou 1/6in );
+px - pixels ( 1/96in );
+pt - pontos ( 1/71in ).
+*/
+
+#txts {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 0px red;
+
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 120%;
+    word-break: break-all;
+    white-space: pre-wrap;
+
+}
+
+/*@font-face {
+    font-family: ;
+    src: url();
+} it's our own font in coding, we need download and put in, it can be use in all devices and is a good way*/
+
+body{
+    font-family: 'Roboto Mono', monospace;/*Extern font, we need add the main link on index page */
 }
