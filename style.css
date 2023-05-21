@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     /*background-color: rgb(50, 100, 30);*/
     /*background-color: hsl(30, 80%, 60%);*//*we have the chromatic circle as a refence*/
     background-color: rgb(12, 88, 88);
@@ -47,3 +49,20 @@ a:hover{
     border-radius: 10px;
 }
 
+h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: larger;
+    /*width: 50em; relation to font*/
+    /*width: 50%; related to available size */
+    /*width: 10rem; related to root element size*/
+    width: 90vw; /*view port width*/
+    height: 10vh; /*view port height*/
+}
+
+.calc {
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
